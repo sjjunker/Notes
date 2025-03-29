@@ -51,6 +51,9 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>None</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
+    <ProductDefinition></ProductDefinition>
+    <CodesignResourceRules></CodesignResourceRules>
+    <OnDemandResourcesPrefetchOrder></OnDemandResourcesPrefetchOrder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -138,7 +141,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Notes\Notes.csproj">
-      <Project>{01B720F5-15F6-4EAA-852F-C04461E47414}</Project>
+      <Project>{A855ACC9-732F-4CC6-A4F7-7361C03E7331}</Project>
       <Name>Notes</Name>
     </ProjectReference>
   </ItemGroup>
